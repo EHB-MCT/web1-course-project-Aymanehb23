@@ -21,8 +21,15 @@ body {
 
 body{
     font-family: 'Poppins', sans-serif;
+    
+
 }
 
+.header{
+
+    border-radius: 3px;
+    backdrop-filter: blur(2px);
+}
 
 
 
@@ -37,11 +44,12 @@ body{
     width: 90%;
     max-width: 1100px;
     margin: 0 auto;
+    
 }
 
 .header {
     padding: 20px 0px;
-    font: bold 24px 'Georgia', serif;
+    font:  'Georgia', serif;
     
 
 }
@@ -85,7 +93,7 @@ nav a:hover {
     background: rgba(43, 30, 26, 0.45);
     padding: 30px;
     border-radius: 20px;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(2px);
 }
 
 .hero-text h1 {
@@ -98,4 +106,44 @@ nav a:hover {
     font-size: 18px;
     line-height: 1.6;
     color: white;
+}
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color:var(dark yellow);
+    color: var(--donker);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 36px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
 }
