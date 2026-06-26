@@ -11,14 +11,13 @@
 body {
     margin: 0;
     
-    background-image: url('images/background.jpg');
+    background-image: url('images/backg3.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
 }
-
 body{
     font-family: 'Poppins', sans-serif;
     
